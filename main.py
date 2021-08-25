@@ -10,24 +10,24 @@ API = "https://api.abirhasan.wtf/google?query="
 
 
 Bot = Client(
-    "Google-Search-Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    "GOOGLE SEARCH BOT",
+    bot_token = os.environ["1958151362:AAFTeXcUlFwpOjMsDyPruXH40lDeErU_rLs"],
+    api_id = int(os.environ["6065291"]),
+    api_hash = os.environ["dc7873c0a5c737af4356d4f245fe696d"]
 )
 
 
 START_TEXT = """Hello {}
-I am a google search bot.
+I am a google search bot by SL MEADIA TECH.
 
 > `I can search from google. Use me in inline.`
 
-Made by @FayasNoushad"""
+Made by @mrSHAGGYboy"""
 
 JOIN_BUTTON = [
     InlineKeyboardButton(
-        text='⚙ Join Updates Channel ⚙',
-        url='https://telegram.me/FayasNoushad'
+        text='⚙ Join Our Group ⚙',
+        url='https://t.me/SL_MEDIA_TECH_GRUOP'
     )
 ]
 
